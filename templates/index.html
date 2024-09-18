@@ -31,9 +31,9 @@
         }
 
         h1 {
-            color: #007BFF;
+            color: #ff8400;
             margin-bottom: 20px;
-            border-bottom: 2px solid #f0f0f0;
+            border-bottom: 2px solid #ff007b;
             padding-bottom: 10px;
         }
 
@@ -57,12 +57,12 @@
         }
 
         input[type="text"]:hover, input[type="text"]:focus {
-            border-color: #007BFF;
+            border-color: #ff8400;
         }
 
         input[type="submit"] {
             padding: 10px 15px;
-            background-color: #007BFF;
+            background-color: #7bff00;
             color: #fff;
             border: none;
             border-radius: 4px;
@@ -93,14 +93,14 @@
 
 <body>
     <div class="container">
-        <h1>Hello Dosto, 
-            Let's make a 2 Tier Application with Flask and MYSQL!</h1>
+        <h1>Hi All, 
+            This is a 2 Tier Application with Flask and MYSQL!</h1>
         {% for message in messages %}
             <p>{{ message[0] }}</p>
         {% endfor %}
 
         <form action="/submit" method="post">
-            <input type="text" name="new_message" placeholder="Enter a new message">
+            <input type="text" name="new_message" placeholder="Enter your information">
             <input type="submit" value="Submit">
         </form>
     </div>
