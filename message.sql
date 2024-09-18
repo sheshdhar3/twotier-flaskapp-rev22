@@ -1,4 +1,4 @@
-CREATE TABLE message (
+CREATE TABLE T1 (
 	    id INT AUTO_INCREMENT PRIMARY KEY,
-	    message TEXT
+	    C1 TEXT
 );
